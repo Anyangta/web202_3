@@ -5,45 +5,52 @@
     <meta charset="UTF-8"> <!--comment, 한글 지원-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web 1-02 Quest</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        #header{
+            height: 120px;
+            background-color: rgb(253, 224, 109); 
+            text-align: center;
+        }
+        ul{
+            list-style: none;
+            line-height: 53px;
+            
+        }
+        
+        .li_class{
+            display: inline;
+            margin-left: 80px;
+            color: rgb(85, 63, 0);
+            
+        }
+        .li_class:hover{
+            color: red;
+            text-decoration-color: black;
+            text-decoration-line: underline;
+        }
+        .img_class{
+            margin-top: 33px;
+        }
+    
+    </style>
+
 </head>
-
-<style>
-    body{
-        margin: 0;
-        padding: 0;
-    }
-
-    #header{
-        height: 120px;
-        background-color: rgb(253, 224, 109); 
-    }
-    ul{
-        height: 53px;
-        padding-top: 33px;
-    }
-    .ul_noDot{
-        list-style-type: none;
-    }
-    .li_class{
-        display: inline-block;
-        margin-left: 80px;
-        color: rgb(85, 63, 0);
-        text-align: center;
-    }
-    .li_class:hover{
-        color: rgb(255, 0, 0);
-        text-decoration: underline
-    }
-
-</style>
 
 <body>
     <div id="header">
-        <ul class="ul_noDot">
+        <ul>
             <li class="li_class">How it works</li>
             <li class="li_class">Gifts</li>
             <li class="li_class">About</li>
-            <li class="li_class"><img src = "/img/logo.png" class="li_class img"></li>
+            <li class="li_class">
+                <img src="/img/logo.png" class="img_class">
+            </li>
             <li class="li_class">Login</li>
             <li class="li_class">Members</li>
             <li class="li_class">Contracts</li>
