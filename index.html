@@ -7,15 +7,14 @@
     <title>Web 1-02 Quest</title>
 
     <style>
-        * {
+        *{
             margin: 0;
             padding: 0;
+            text-align: center;
         }
     
         #header{
             height: 120px;
-            background-color: rgb(253, 224, 109); 
-            text-align: center;
         }
         ul{
             list-style: none;
@@ -37,6 +36,30 @@
         .img_class{
             margin-top: 33px;
         }
+        .main_pictur{
+            height: 464px;
+            width:  100%;
+        }
+        .a_noneunder{
+            text-decoration-line: none;
+        }
+        #icon_title{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 30px;
+        }
+        #icon_box{
+            width: 1240px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .p_class{
+            width: 250px;
+            display: inline-block;
+            margin-right: 60px;
+            font-size: 14px;
+        }
+
     
     </style>
 
@@ -47,7 +70,7 @@
         <ul>
             <li class="li_class">How it works</li>
             <li class="li_class">Gifts</li>
-            <li class="li_class">About</li>
+            <a href="/src/about.html" class="a_noneunder"><li class="li_class">About</li></a>
             <li class="li_class">
                 <img src="/img/logo.png" class="img_class">
             </li>
@@ -56,8 +79,50 @@
             <li class="li_class">Contracts</li>
         </ul>
     </div>
+    <img src="/img/main.png" class="main_pictur">
+    
+    <div id="icon_title">
+            <span style="font-size: 10px;">WHAT FOR DINNER</span><br>
+            <strong><span style="font-size: 20px;">FINALLY HAS AN</span></strong><br>
+            <strong><span style="font-size: 20px;">EASY ANWSER</span></strong>
+    </div>
 
-    <img src="/img/main.png">
+    <div id="icon_box">
+        <p class="p_class">
+            <img src="/img/icon1.png"><br>
+            Lorem ipsum dolor sit amet. consectetur
+            adipisicing elit. sed do eiusmod tempor
+            incididunt ut labore et dolore magna
+            aliqua.
+        </p>
+
+        <p class="p_class">
+            <img src="/img/icon2.png"><br>
+            Lorem ipsum dolor sit amet. consectetur
+            adipisicing elit. sed do eiusmod tempor
+            incididunt ut labore et dolore magna
+            aliqua.
+        </p>
+
+        <p class="p_class">
+            <img src="/img//icon3.png"><br>
+            Lorem ipsum dolor sit amet. consectetur
+            adipisicing elit. sed do eiusmod tempor
+            incididunt ut labore et dolore magna
+            aliqua.
+        </p>
+
+        <p class="p_class">
+            <img src="/img//icon4.png"><br>
+            Lorem ipsum dolor sit amet. consectetur
+            adipisicing elit. sed do eiusmod tempor
+            incididunt ut labore et dolore magna
+            aliqua.
+        </p>
+
+    </div>
+        
+    
 
 </body>
 
