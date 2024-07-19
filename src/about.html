@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!--comment, 한글 지원-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web 1-02 Quest_about</title>
+
+    <style>
+        *{
+            font: 14px;
+            font-family: 'Malgun Gothic', '맑은 고딕', '돋움', sans-serif;
+            color: black;
+        }
+        body{
+            margin: 30px;
+            padding: 0;
+        }
+        #top {
+            width: 1000px;
+            height: 500px;
+            margin: 0 auto;
+            position: relative; 
+        }
+
+        .top_large_img {
+            width: 750px;
+            height: 500px;
+            float: left;
+        }
+        .top_right_img {
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .top_under_img {
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        #top_paragraph{
+            width: 210px;
+            height: 210px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <img src="/img/chef_about.png" class="top_large_img">
+        <img src="/img/right1.png" class="top_right_img">
+        <img src="/img/right2.png" class="top_under_img">
+        <div id="top_paragraph">
+            <p><strong>GLOBAL<br>BUSINESS</strong></p>
+            <p>
+            Lorem ipsum dolor sit amet. consectetur
+            adipisicing elit. sed do eiusmod tempor
+            incididunt ut labore et dolore magna
+            aliqua.</p>
+        </div>
+
+    </div>
+</body>
